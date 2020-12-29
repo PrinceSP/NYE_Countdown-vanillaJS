@@ -1,7 +1,7 @@
-(async function counter(){
+(function counter(){
   const newDate = new Date('1 jan 2021')
-  let currentDate = new Date()
-  let seconds = Math.round((newDate-currentDate)/1000)
+  const currentDate = new Date()
+  const seconds = Math.round((newDate-currentDate)/1000)
   const minutes = Math.floor(seconds/60)
   const hours = Math.floor((minutes/60)%24)
   const days = Math.floor(seconds/86400)
