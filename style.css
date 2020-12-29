@@ -67,7 +67,3 @@ p{
 .text>p:nth-of-type(1){
   margin-right: 25px;
 }
-
-.text>p:nth-last-of-type(1){
-  margin-right: -25px;
-}
